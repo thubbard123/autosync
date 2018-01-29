@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=System.LinkedTitle%] "
+    Link="/Content/A_Introduction Topics/Getting Started.htm"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/A_Introduction Topics/Basic Steps.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/A_Introduction Topics/Whats New.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/B_Feature Topics/Features.htm"
+    conditions="General.Audience B">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/B_Feature Topics/Feature1.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/B_Feature Topics/Feature2.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/B_Feature Topics/Feature3.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/C_Procedure Topics/Procedures.htm"
+    conditions="General.Audience A,General.Audience B">
+    <TocEntry
+      Title="[%=General.CompanyName%]"
+      Link="/Content/C_Procedure Topics/Procedure1.htm" />
+    <TocEntry
+      Title="Test"
+      Link="/Content/C_Procedure Topics/Procedure2.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/C_Procedure Topics/Procedure3.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/D_More Information/Company Information.htm"
+    conditions="General.Audience A">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/D_More Information/FAQs.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/D_More Information/PDF Downloads.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/D_More Information/Tips.htm" />
+  </TocEntry>
+</CatapultToc>
